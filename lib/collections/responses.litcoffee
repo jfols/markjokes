@@ -16,7 +16,6 @@
           limit: 1
         response = (Responses.find {}, projection).fetch()[0]
 
-        console.log response
         criteria =
           _id: response._id
         action =

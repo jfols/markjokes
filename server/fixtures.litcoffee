@@ -14,3 +14,13 @@
       console.log 'creating test users'
       _.each users, (user) ->
         Accounts.createUser user
+
+    if Responses.find().count() is 0
+      responses = [
+        response: 'Yo momma.'
+        count: 0
+      ,
+        responses: "That's what she said."
+        count: 0
+      ]
+      _.each responses, (response) -> Responses.insert response
