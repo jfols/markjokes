@@ -20,7 +20,7 @@
         response: 'Yo momma.'
         count: 0
       ,
-        responses: "That's what she said."
+        response: "That's what she said."
         count: 0
       ]
       _.each responses, (response) -> Responses.insert response

@@ -23,4 +23,5 @@
             count: 1
         Responses.update criteria, action
 
+        console.log response
         return response
