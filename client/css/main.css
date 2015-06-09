@@ -1,0 +1,16 @@
+/* hack to fix minor bug in fezvrasta:bootstrap-material-design
+   see: https://github.com/FezVrasta/bootstrap-material-design/issues/394
+*/
+.btn-default:not(.btn-link):not(.btn-flat) {
+  color: black;
+}
+
+body {
+  padding-top: 50px;
+}
+
+@media (min-width: 1200px) {
+  body {
+    padding-top: 60px;
+  }
+}
